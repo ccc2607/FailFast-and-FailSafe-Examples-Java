@@ -1,0 +1,2 @@
+# FailFast-and-FailSafe-Examples-Java
+Iterators in java give us the facility to traverse over the Collection objects. Iterators returned by the Collection are either fail-fast in nature or fail-safe in nature. Fail-Fast iterators immediately throw ConcurrentModificationException if a collection is modified while iterating over it. Where as Fail-Safe iterators don’t throw any exceptions if a collection is modified while iterating over it. Because, they operate on the clone of the collection, not on the actual collection.
